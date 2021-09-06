@@ -28,6 +28,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionmanagement>
+          <repository>
+             <id>tiru</id>
+             <name>Amazon releases repository</name>
+             <url>http://localhost:8081/repository/amazon-release/</url>
+          </repository>
+
+          <SnapshotRepository>
+             <id>tiru</id>
+             <name>Amazon snapshot repository</name>
+             <url>http://localhost:8081/repository/amazon-snapshot/</url>
+          </SnapshotRepository>
+  </distributionmanagement>
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
