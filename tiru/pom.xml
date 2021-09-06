@@ -29,11 +29,11 @@
     </dependency>
   </dependencies>
   <distributionmanagement>
-          <repository>
+          <Repository>
              <id>tiru</id>
              <name>Amazon releases repository</name>
              <url>http://localhost:8081/repository/amazon-release/</url>
-          </repository>
+          </Repository>
 
           <SnapshotRepository>
              <id>tiru</id>
